@@ -197,13 +197,15 @@
       <footer>
         <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
           <div>Prepared by <strong>Amir Navrutdinov</strong> — Linux Admin & Web Dev</div>
-          <div class="muted">Last updated: October 2025</div>
+          <div class="muted">Last updated: October <span id="date"></span></div>
         </div>
       </footer>
     </div>
   </div>
 </body>
 <script>
+  const d = new Date().getFullYear();
+  document.querySelector("#date").textContent=`${d}`;
   let onClickToIMG=+0;
   document.querySelector(".contact > img").addEventListener("click",
     function(){
