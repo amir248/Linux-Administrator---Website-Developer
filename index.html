@@ -40,7 +40,7 @@
   .item:last-child{border-bottom:none;}
   .contact > img{
     width:100%;
-    max-width: 75px;
+    max-width: 33px;
   }
 </style>
 </head>
@@ -202,9 +202,15 @@
   </div>
 </body>
 <script>
+  let onClickToIMG=+0;
   document.querySelector(".contact > img").addEventListener("click",
     function(){
-      document.querySelector(".contact > img").style.cssText="width:431px;"
+      onClickToIMG++;
+      document.querySelector(".contact > img").style.cssText="max-width:431px;"
+      if(onClickToIMG==2){
+        document.querySelector(".contact > img").style.cssText="max-width:33px;";
+        onClickToIMG=0;
+      }
     }
   )
 </script>
