@@ -38,6 +38,10 @@
   /* subtle separators for items */
   .item{padding:8px 0; border-bottom:1px dashed #f0f2f6;}
   .item:last-child{border-bottom:none;}
+  .contact > img{
+    width:100%;
+    max-width: 75px;
+  }
 </style>
 </head>
 <body>
@@ -197,4 +201,11 @@
     </div>
   </div>
 </body>
+<script>
+  document.querySelector(".contact > img").addEventListener("click",
+    function(){
+      document.querySelector(".contact > img").style.cssText="width:431px;"
+    }
+  )
+</script>
 </html>
