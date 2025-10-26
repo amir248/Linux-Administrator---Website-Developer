@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Amir Navrutdinov — Linux Admin & Website Dev — EN / 中文</title>
+<meta name="description" content="Resume — Linux (Debian) Administrator and Website Developer. English / 中文 bilingual." />
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#ffffff; --accent:#0f4c81; --muted:#6b7280; --border:#e6e9ef;
+    --maxw:1100px;
+    font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  html,body{height:100%; margin:0; background:var(--bg); color:#0b1220;}
+  .wrap{max-width:var(--maxw); margin:28px auto; padding:20px;}
+  .card{background:var(--card); border-radius:12px; box-shadow:0 6px 18px rgba(12,15,30,0.06); overflow:hidden; border:1px solid var(--border);}
+  .grid{display:grid; grid-template-columns:1fr 1fr;}
+  @media (max-width:880px){ .grid{grid-template-columns:1fr;} }
+  header{display:flex; gap:16px; align-items:center; padding:24px 28px; border-bottom:1px solid var(--border);}
+  .avatar{width:84px; height:84px; border-radius:10px; background:linear-gradient(135deg,var(--accent),#2b7bb9); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:28px;}
+  .title{flex:1;}
+  h1{margin:0; font-size:20px; color:var(--accent);}
+  .sub{margin-top:6px; color:var(--muted); font-size:13px;}
+  .col{padding:22px;}
+  h2{margin:6px 0 10px; color:#0b1220; font-size:16px;}
+  .muted{color:var(--muted); font-size:13px;}
+  ul{margin:10px 0 18px 18px; padding:0;}
+  li{margin-bottom:8px; line-height:1.45;}
+  .skill-badges{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;}
+  .badge{background:#f1f6fb; color:var(--accent); padding:6px 10px; border-radius:8px; font-size:13px; border:1px solid #e1eefb;}
+  .section{margin-bottom:18px;}
+  .project{margin-bottom:12px;}
+  .links{display:flex; gap:12px; flex-wrap:wrap; margin-top:6px;}
+  .link{font-size:13px; color:var(--accent); text-decoration:none;}
+  footer{padding:18px 28px; border-top:1px solid var(--border); background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0.9)); color:var(--muted); font-size:13px;}
+  .contact{font-weight:600; color:#0b1220;}
+  .lang-title{font-size:12px; color:var(--muted); margin-bottom:6px;}
+  /* subtle separators for items */
+  .item{padding:8px 0; border-bottom:1px dashed #f0f2f6;}
+  .item:last-child{border-bottom:none;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="main" aria-label="Bilingual resume">
+      <header>
+        <div class="avatar" aria-hidden="true">AN</div>
+        <div class="title">
+          <h1>Amir Navrutdinov — Linux Administrator & Website Developer</h1>
+          <div class="sub">Tomsk, Russia • Remote-friendly • English / 中文 / Русский</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="muted">Contact</div>
+          <div class="contact">email: lucky@qucu.ru<br>
+          Telegram / WeChat: @ChikChicly / ____ IMG </div>
+        </div>
+      </header>
+
+      <div class="grid" role="region" aria-label="Resume columns">
+        <!-- LEFT: English -->
+        <section class="col" lang="en">
+          <div class="lang-title">ENGLISH</div>
+
+          <div class="section">
+            <h2>Professional Summary</h2>
+            <p class="muted">Experienced Debian Linux Administrator and Full-Stack Web Developer (Node.js / Express / EJS) with 5+ years maintaining servers, building multilingual e-commerce sites and ensuring secure, automated deployments. Seeking remote roles with Chinese e-commerce / cross-border teams.</p>
+          </div>
+
+          <div class="section">
+            <h2>Key Skills</h2>
+            <div class="skill-badges">
+              <span class="badge">Debian / Ubuntu</span>
+              <span class="badge">Node.js / Express</span>
+              <span class="badge">Nginx & SSL</span>
+              <span class="badge">Docker & PM2</span>
+              <span class="badge">MySQL / MongoDB</span>
+              <span class="badge">Bash scripting</span>
+              <span class="badge">SEO & Baidu/Yandex</span>
+              <span class="badge">AliPay / WeChat API</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Experience</h2>
+            <div class="item">
+              <strong>Freelance / Remote IT Specialist</strong> — <span class="muted">2019 – Present</span>
+              <ul>
+                <li>Deploy and maintain Debian servers, automated backups and monitoring (uptime >99.9%).</li>
+                <li>Develop multilingual websites (RU / EN / CN) using Node.js + EJS for e-commerce and landing pages.</li>
+                <li>Integrate payment gateways and logistics APIs for China-to-CIS trade (AliPay, PayPal, courier APIs).</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <strong>System Administrator — Private Hosting Company</strong> — <span class="muted">2017 – 2019</span>
+              <ul>
+                <li>Managed 30+ Linux servers, implemented monitoring and DDoS mitigation.</li>
+                <li>Migrated legacy PHP projects to Node.js stacks, improved performance and security.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Education</h2>
+            <div class="muted">Tomsk State University — Bachelor in Information Technology (2016 – 2020)</div>
+          </div>
+
+          <div class="section">
+            <h2>Projects & Links</h2>
+            <div class="project">
+              <div><strong>qucu.ru</strong> — modular comment system (Node.js / Express / EJS)</div>
+              <div class="links">
+                <a class="link" href="https://qucu.ru" target="_blank" rel="noopener">qucu.ru</a>
+                <a class="link" href="https://new.qucu.ru" target="_blank" rel="noopener">new.qucu.ru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>References</h2>
+            <p class="muted">Available upon request. Open to trial task and long-term contracts. Payment options: bank transfer, USDT, CNY via trusted exchanges.</p>
+          </div>
+        </section>
+
+        <!-- RIGHT: Chinese -->
+        <section class="col" lang="zh">
+          <div class="lang-title">中文 / 中文简历</div>
+
+          <div class="section">
+            <h2>个人简介</h2>
+            <p class="muted">具有 5 年以上经验的 Debian Linux 系统管理员与全栈网站开发工程师（Node.js / Express / EJS），擅长服务器部署、安全运维和跨境电商网站。寻求与中国电商或外贸公司远程合作。</p>
+          </div>
+
+          <div class="section">
+            <h2>核心技能</h2>
+            <div class="skill-badges">
+              <span class="badge">Debian / Ubuntu</span>
+              <span class="badge">Node.js / Express</span>
+              <span class="badge">Nginx & SSL</span>
+              <span class="badge">Docker & PM2</span>
+              <span class="badge">MySQL / MongoDB</span>
+              <span class="badge">Bash 脚本</span>
+              <span class="badge">SEO（百度 / Yandex）</span>
+              <span class="badge">支付宝 / 微信支付</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>工作经历</h2>
+            <div class="item">
+              <strong>自由职业 IT 专家（远程）</strong> — <span class="muted">2019 – 至今</span>
+              <ul>
+                <li>为中小企业部署与维护 Debian 服务器，做自动备份与监控。</li>
+                <li>开发多语言网站（俄 / 英 / 中），用于推广中国商品并对接物流与支付。</li>
+                <li>集成云存储与第三方支付接口（支付宝、PayPal 等）。</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <strong>系统管理员 — 私营主机公司</strong> — <span class="muted">2017 – 2019</span>
+              <ul>
+                <li>管理 30+ 台 Linux 服务器，确保系统与网络稳定。</li>
+                <li>将老旧 PHP 平台迁移到 Node.js，提升性能与安全性。</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>教育背景</h2>
+            <div class="muted">托木斯克国立大学 — 信息技术学士 (2016 – 2020)</div>
+          </div>
+
+          <div class="section">
+            <h2>项目与链接</h2>
+            <div class="project">
+              <div><strong>qucu.ru</strong> — 评论系统 (Node.js / Express / EJS)</div>
+              <div class="links">
+                <a class="link" href="https://qucu.ru" target="_blank" rel="noopener">qucu.ru</a>
+                <a class="link" href="https://new.qucu.ru" target="_blank" rel="noopener">new.qucu.ru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>备注</h2>
+            <p class="muted">可远程工作并支持长期合同。可根据客户需求提供测试任务。支持多种付款方式（银行、电汇、USDT、CNY）。</p>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+          <div>Prepared by <strong>Amir Navrutdinov</strong> — Linux Admin & Web Dev</div>
+          <div class="muted">Last updated: October 2025</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
