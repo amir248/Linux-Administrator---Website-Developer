@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amir248.github.io/Linux-Administrator---Website-Developer/sitemap.xml
+
+# Baidu (百度)
+User-agent: Baiduspider
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex (дополнительно)
+User-agent: Yandex
+Allow: /
+
+# GitHub Pages cache
+Clean-param: ?
